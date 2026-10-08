@@ -1,34 +1,47 @@
-# João Moura
+# João Luan Mendonça Moura
 
-### Full Stack Developer · Backend, SaaS e automação
+**Desenvolvedor Backend / Full Stack · Buscando oportunidade júnior**
 
-Desenvolvo produtos de ponta a ponta com **Node.js, PostgreSQL, Docker, APIs e WhatsApp**, conectando decisões técnicas a problemas reais de operação. Trago mais de 15 anos de experiência em gestão de restaurantes para construir software simples, confiável e útil para quem está na linha de frente.
+Desenvolvo aplicações web, integrações e automações com JavaScript, TypeScript, Node.js, React e PostgreSQL. Minha experiência anterior em gestão de restaurantes orienta os problemas que escolho resolver e as funcionalidades que construo.
 
-📍 Novo Hamburgo, RS, Brasil<br>
-🌐 [Portfólio e currículo](https://joaomoura.dev.br) · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-luan-mendonca-moura-64027a245)
+Estudo **Análise e Desenvolvimento de Sistemas na UNISINOS** e moro em **Novo Hamburgo, RS**. Tenho interesse em oportunidades na Grande Porto Alegre ou remotas no Brasil.
 
-## Em produção
+[Portfólio](https://joaomoura.dev.br/) · [Currículo atualizado](https://joaomoura.dev.br/curriculo-joao-moura-pt.pdf) · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-luan-mendonca-moura-64027a245) · [Contato](mailto:joao.luan@hotmail.com)
 
-**MyFoodLink** — SaaS multi-tenant para restaurantes com atendimento via WhatsApp, handoff humano, CRM, campanhas com consentimento e opt-out, cardápio, reservas, avaliações, fidelidade e analytics.
+## Projeto principal: MyFoodLink
 
-- Provisionamento isolado e auditável por tenant
-- PostgreSQL, Redis, Docker, APIs REST e Evolution API
-- Autenticação segura, idempotência, health checks e rollback controlado
-- Case técnico sanitizado disponível no [portfólio](https://joaomoura.dev.br/#case)
+Projeto independente de uma plataforma SaaS para restaurantes. Trabalho no desenvolvimento das aplicações, nas integrações e na operação da infraestrutura.
 
-## Projetos públicos
+- **Produto:** atendimento por WhatsApp, CRM, campanhas, cardápio digital, pedidos, reservas e fidelidade.
+- **Backend:** Node.js, Express, PostgreSQL e Redis; APIs, webhooks e isolamento dos recursos de cada restaurante.
+- **Frontend:** React, Next.js e TypeScript; aplicações e componentes compartilhados.
+- **Operação:** Linux, Docker, provisionamento, observabilidade, backups e ensaios de recuperação.
+- **Qualidade:** testes automatizados, verificações antes da implantação e procedimentos de rollback.
 
-- **[Portfólio profissional](https://github.com/joaoluan/joaoluan.github.io)** — apresentação dos projetos, arquitetura, trajetória e currículos PT/EN.
-- **[Donilla Commerce Platform](https://github.com/joaoluan/donilla-app)** — catálogo, pedidos, checkout Asaas, automação via WhatsApp, auditoria e operação em Docker.
-- **[Aplicação para freelancers](https://github.com/joaoluan/freela)** — aplicação web para publicação e descoberta de oportunidades.
-- **[Vigilância Solidária](https://github.com/joaoluan/vs-melhorado)** — autenticação, alertas, câmeras e dashboard com Node.js e Express.
-- **[Shopping](https://github.com/joaoluan/shopping)** — orientação a objetos, herança, arrays e coleções em Java.
-- **[Labirinto](https://github.com/joaoluan/Labirinto)** — matrizes, recursão e resolução de problemas em Java.
+O código do MyFoodLink permanece **privado**. O [case no portfólio](https://joaomoura.dev.br/#case) apresenta o problema, minha atuação e a arquitetura, sem expor credenciais ou dados de clientes.
 
-## Stack
+## Código público selecionado
 
-`JavaScript` · `Node.js` · `Express` · `REST APIs` · `PostgreSQL` · `Redis` · `Prisma` · `Sequelize` · `Docker Compose` · `Linux/VPS` · `Nginx` · `Playwright` · `Evolution API`
+### [Donilla Commerce Platform](https://github.com/joaoluan/donilla-app)
 
-## Momento profissional
+Projeto independente de comércio eletrônico: catálogo, pedidos, checkout Asaas, webhooks, acompanhamento de pedidos e automação via WhatsApp. Inclui painel com atualizações por Server-Sent Events, testes de backend e verificações de fluxos com Playwright.
 
-Estudante de **Análise e Desenvolvimento de Sistemas na UNISINOS**, com conclusão prevista para 2026. Busco oportunidade como **Desenvolvedor Full Stack ou Backend Júnior**, levando experiência de operação, visão de produto e prática com sistemas em produção.
+**O que observar no código:** integrações externas, validação de dados, processamento de eventos, organização de serviços e testes.
+
+### [Vigilância Solidária](https://github.com/joaoluan/vs-melhorado)
+
+Protótipo acadêmico em Node.js e Express, com cadastro, autenticação por sessão, dashboard e simulação de alertas. Usa arquivos JSON para persistência e Bootstrap/jQuery na interface.
+
+**O que observar no código:** fundamentos de desenvolvimento web, rotas protegidas e comunicação entre interface e API. As câmeras e os alertas são simulados.
+
+## Tecnologias
+
+| Área | Ferramentas usadas nos projetos |
+| --- | --- |
+| Desenvolvimento | JavaScript, TypeScript, Node.js, Express, React, Next.js |
+| Dados e integrações | PostgreSQL, Redis, Prisma, APIs REST, webhooks, Asaas, Evolution API, WPPConnect |
+| Qualidade e operação | Git, Docker, Linux, GitHub Actions, Playwright, Grafana, Prometheus |
+
+**Inglês:** avançado (B2).
+
+Meu portfólio reúne o contexto dos projetos, minha trajetória profissional e o currículo. Os projetos acadêmicos registram meu aprendizado; os destaques acima representam o trabalho que quero continuar desenvolvendo.
