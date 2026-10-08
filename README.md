@@ -16,7 +16,7 @@ Começou como o sistema de pedidos da **Donilla**, a doceria da minha família, 
 - **Backend:** Node.js, Express, PostgreSQL e Redis; APIs, webhooks e isolamento de banco, contêiner e WhatsApp por restaurante.
 - **Frontend:** React, Next.js e TypeScript num monorepo com aplicações pública, do restaurante e de operação.
 - **Operação:** Linux, Docker, provisionamento idempotente com rollback, observabilidade, backups e ensaios de recuperação.
-- **Qualidade:** mais de 500 cenários de teste automatizados, smoke tests e verificações antes de cada release.
+- **Qualidade:** mais de 1.500 cenários de teste automatizados, smoke tests e verificações antes de cada release.
 
 O código do MyFoodLink é **privado**. O [case no portfólio](https://joaomoura.dev.br/#case) mostra o problema, minha atuação e a arquitetura, sem expor credenciais ou dados de clientes. O projeto final do curso avalia o fluxo de reservas via WhatsApp com usuários reais.
 
