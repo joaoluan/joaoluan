@@ -22,6 +22,10 @@ O código do MyFoodLink é **privado**. O [case no portfólio](https://joaomoura
 
 ## Código público
 
+### [myfoodlink-engineering](https://github.com/joaoluan/myfoodlink-engineering) — problemas reais de produção e como resolvi
+
+Dez casos do MyFoodLink com sintoma, causa, solução, código e testes: webhook idempotente, descadastro por contexto (LGPD), webhook de pagamento multi-tenant, deadlock de pool no PostgreSQL, backup perdido por disputa de lock, deploy puxado com rollback automático e provisionamento seguro de restaurantes. CI com testes em Node 20 e 22, ShellCheck e varredura de segredos.
+
 ### [donilla-app](https://github.com/joaoluan/donilla-app) — origem do MyFoodLink
 
 A versão anterior do sistema de pedidos da Donilla: catálogo, pedidos, checkout Asaas via webhooks, painel em tempo real (SSE) e notificações por WhatsApp. Código descontinuado, mantido como registro da evolução do projeto.
