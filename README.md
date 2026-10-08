@@ -1,38 +1,34 @@
 # João Luan Mendonça Moura
 
-**Desenvolvedor Backend / Full Stack · Buscando oportunidade júnior**
+**Desenvolvedor Full Stack · Node.js · TypeScript · React/Next.js · PostgreSQL · Buscando vaga júnior**
 
-Desenvolvo aplicações web, integrações e automações com JavaScript, TypeScript, Node.js, React e PostgreSQL. Minha experiência anterior em gestão de restaurantes orienta os problemas que escolho resolver e as funcionalidades que construo.
+Criei e opero o **MyFoodLink**, plataforma SaaS para restaurantes em produção com **2 restaurantes**, cerca de **300 pedidos por mês** e mais de **2.000 acessos mensais** a reservas, avaliações e cardápio. Antes do código, foram mais de 15 anos em restaurantes, entre gestão e vendas: conheço o problema que o software resolve.
 
-Estudo **Análise e Desenvolvimento de Sistemas na UNISINOS** e moro em **Novo Hamburgo, RS**. Tenho interesse em oportunidades na Grande Porto Alegre ou remotas no Brasil.
+Estudante de **Análise e Desenvolvimento de Sistemas na UNISINOS** (conclusão em 2026), em **Novo Hamburgo, RS**. Busco vaga Full Stack ou Backend Júnior, **híbrida na Grande Porto Alegre ou remota** no Brasil.
 
-[Portfólio](https://joaomoura.dev.br/) · [Currículo atualizado](https://joaomoura.dev.br/curriculo-joao-moura-pt.pdf) · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-luan-mendonca-moura-64027a245) · [Contato](mailto:joao.luan@hotmail.com)
+[Portfólio](https://joaomoura.dev.br/) · [Currículo](https://joaomoura.dev.br/curriculo-joao-moura-pt.pdf) · [Résumé (EN)](https://joaomoura.dev.br/resume_en.pdf) · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-luan-mendonca-moura-64027a245) · [Contato](mailto:joao.luan@hotmail.com)
 
 ## Projeto principal: MyFoodLink
 
-Projeto independente de uma plataforma SaaS para restaurantes. Nasceu da evolução da aplicação Donilla; hoje, a Donilla é um dos tenants da plataforma. Trabalho no desenvolvimento das aplicações, nas integrações e na operação da infraestrutura.
+Começou como o sistema de pedidos da **Donilla**, a doceria da minha família, que vendia para cafeterias, bares e restaurantes. Evoluiu para uma plataforma multi-tenant; hoje a Donilla é cliente dela. Atuo de ponta a ponta, do produto à operação.
 
-- **Produto:** atendimento por WhatsApp, CRM, campanhas, cardápio digital, pedidos, reservas e fidelidade.
-- **Backend:** Node.js, Express, PostgreSQL e Redis; APIs, webhooks e isolamento dos recursos de cada restaurante.
-- **Frontend:** React, Next.js e TypeScript; aplicações e componentes compartilhados.
-- **Operação:** Linux, Docker, provisionamento, observabilidade, backups e ensaios de recuperação.
-- **Qualidade:** testes automatizados, verificações antes da implantação e procedimentos de rollback.
+- **Produto:** atendimento por WhatsApp com transferência para humano, CRM, campanhas com consentimento (LGPD), cardápio digital, pedidos, reservas, avaliações e fidelidade.
+- **Backend:** Node.js, Express, PostgreSQL e Redis; APIs, webhooks e isolamento de banco, contêiner e WhatsApp por restaurante.
+- **Frontend:** React, Next.js e TypeScript num monorepo com aplicações pública, do restaurante e de operação.
+- **Operação:** Linux, Docker, provisionamento idempotente com rollback, observabilidade, backups e ensaios de recuperação.
+- **Qualidade:** mais de 500 cenários de teste automatizados, smoke tests e verificações antes de cada release.
 
-O código do MyFoodLink permanece **privado**. O [case no portfólio](https://joaomoura.dev.br/#case) apresenta o problema, minha atuação e a arquitetura, sem expor credenciais ou dados de clientes.
+O código do MyFoodLink é **privado**. O [case no portfólio](https://joaomoura.dev.br/#case) mostra o problema, minha atuação e a arquitetura, sem expor credenciais ou dados de clientes. O projeto final do curso avalia o fluxo de reservas via WhatsApp com usuários reais.
 
-## Código público e trajetória
+## Código público
 
-### Origem do MyFoodLink: Donilla
+### [donilla-app](https://github.com/joaoluan/donilla-app) — origem do MyFoodLink
 
-O [repositório donilla-app](https://github.com/joaoluan/donilla-app) preserva a aplicação que serviu de base ao MyFoodLink. Esse código está descontinuado; a operação atual da Donilla ocorre como tenant do MyFoodLink, cujo código permanece privado.
+A versão anterior do sistema de pedidos da Donilla: catálogo, pedidos, checkout Asaas via webhooks, painel em tempo real (SSE) e notificações por WhatsApp. Código descontinuado, mantido como registro da evolução do projeto.
 
-Para conhecer meu trabalho atual, veja o [case do MyFoodLink no portfólio](https://joaomoura.dev.br/#case). O repositório antigo é um registro da evolução do projeto.
+### [Vigilância Solidária](https://github.com/joaoluan/vs-melhorado) — projeto acadêmico
 
-### [Vigilância Solidária](https://github.com/joaoluan/vs-melhorado)
-
-Protótipo acadêmico em Node.js e Express, com cadastro, autenticação por sessão, dashboard e simulação de alertas. Usa arquivos JSON para persistência e Bootstrap/jQuery na interface.
-
-**O que observar no código:** fundamentos de desenvolvimento web, rotas protegidas e comunicação entre interface e API. As câmeras e os alertas são simulados.
+Protótipo em Node.js e Express com cadastro, autenticação por sessão, dashboard e simulação de alertas. Mostra os fundamentos de onde parti.
 
 ## Tecnologias
 
@@ -40,8 +36,6 @@ Protótipo acadêmico em Node.js e Express, com cadastro, autenticação por ses
 | --- | --- |
 | Desenvolvimento | JavaScript, TypeScript, Node.js, Express, React, Next.js |
 | Dados e integrações | PostgreSQL, Redis, Prisma, APIs REST, webhooks, Asaas, Evolution API, WPPConnect |
-| Qualidade e operação | Git, Docker, Linux, GitHub Actions, Playwright, Grafana, Prometheus |
+| Qualidade e operação | Git, Docker, Linux, GitHub Actions, Playwright, Vitest, Grafana, Prometheus |
 
-**Inglês:** avançado (B2).
-
-Meu portfólio reúne meu trabalho atual no MyFoodLink, minha trajetória profissional e o currículo. Os repositórios acadêmicos e legados registram as etapas anteriores do meu aprendizado e desenvolvimento.
+**Idiomas:** português nativo · inglês B2 (leitura técnica fluente e comunicação profissional).
