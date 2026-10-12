@@ -1,6 +1,6 @@
 # João Luan Mendonça Moura
 
-**Desenvolvedor Full Stack · Node.js · TypeScript · React/Next.js · PostgreSQL · Buscando vaga júnior**
+**Desenvolvedor Full Stack Júnior · Node.js · TypeScript · React/Next.js · PostgreSQL · Docker**
 
 Criei e opero o **MyFoodLink**, plataforma SaaS para restaurantes em produção com **2 restaurantes**, cerca de **300 pedidos por mês** e mais de **2.000 acessos mensais** a reservas, avaliações e cardápio. Antes do código, foram mais de 15 anos em restaurantes, entre gestão e vendas: conheço o problema que o software resolve.
 
